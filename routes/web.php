@@ -11,6 +11,17 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+Route::get('/', function(){
+	return Redirect('/Home');
+});
+
+Route::get('/Home', function(){
+	return "This is the home page!";
+});
+
+Route::get('/test', function(){
+	return view('pages.testpage1');
 });
