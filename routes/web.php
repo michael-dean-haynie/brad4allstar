@@ -15,13 +15,20 @@
 //     return view('welcome');
 // });
 Route::get('/', function(){
-	return Redirect('/Home');
+	return Redirect('/home');
 });
 
-Route::get('/Home', function(){
-	return "This is the home page!";
-});
+Route::get('/home', "PagesController@home");
+Route::get('/qualifications', "PagesController@qualifications");
+Route::get('/pseudonymes', "PagesController@pseudonymes");
+Route::get('/trivia', "PagesController@trivia");
+Route::get('/whatvotingmeans', "PagesController@whatvotingmeans");
+Route::get('/howtovote', "PagesController@howtovote");
+
+
+
+
 
 Route::get('/test', function(){
-	return view('pages.testpage1');
+	return "test";
 });
