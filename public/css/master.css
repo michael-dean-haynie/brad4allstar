@@ -6,13 +6,90 @@ body{
 	height:1000px;
 	background:linear-gradient(#ffffff, #c4cad8);
 }
+/* Edits To Bootstrap Begin*/
+.navbar{
+	margin-bottom:0;
+}
+/* Edits To Bootstrap End*/
 
 
-@media (max-width: 767px) {
+
+
+
+/* Click Ribbons */
+.click-ribbon-container{
+	position:relative;
+}
+
+.click-ribbon{
+	white-space: nowrap;
+	position:relative;
+	height:3rem;
+}
+
+.why-ribbon{
+	top:15rem;
+}
+
+.how-ribbon{
+	top:18rem;
+}
+
+
+.click-ribbon-body{
+	box-shadow: 2px 2px 2px 1px black;
+	height:100%;
+	background-color:blue;
+	padding:0;
+	margin:0;
+}
+
+.why-ribbon .click-ribbon-body{
+	width:80%;
+}
+
+.how-ribbon .click-ribbon-body{
+	width:70%;
+}
+
+.click-ribbon-body, .click-ribbon-tip{
+	display:inline-block;
 
 }
 
+.click-ribbon-tip{
+
+	width:0;
+	height:0;
+/*	border-top:50px solid blue;*/
+	border-left:3rem solid blue;
+	border-right:3rem solid transparent;
+	border-bottom:3rem solid transparent;
+	overflow: hidden;
+}
+
+
+
+
+
+
+.jumbotron-image{
+	background-size:cover;
+	background-repeat:no-repeat;
+	min-height:500px;
+	width:100%;
+	/*padding-top:100%;*/
+}
+
+
+@media (max-width: 767px) {
+	.jumbotron-image{
+		background-image: url("../img/jumbo1.jpg");
+	}
+}
+
 @media (min-width: 768px) {
-
-
+	.jumbotron-image{
+		background-image: url("../img/jumbo1.jpg");
+	}
 }
