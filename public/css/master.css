@@ -12,14 +12,47 @@ body{
 }
 /* Edits To Bootstrap End*/
 
+.jumbo-mobile-header, .jumbo-mobile-footer{
+	display:none;
+	text-align:center;
+}
+
+@media (max-width: 600px) {
+	.jumbo-mobile-header, .jumbo-mobile-footer{
+		display:block;
+	}
+}
+
+.jumbo-mobile-header .blue, .jumbo-mobile-footer .blue{
+	background:radial-gradient(blue, #1d1dbf);
+	color:white;
+	font-size:1.5rem;
+}
+
+.jumbo-mobile-header .blue .you{
+	font-size:2rem;
+	font-weight:bolder;
+	color:yellow;
+	text-decoration:underline;
+	font-style:italic;
+
+}
+
+.jumbo-mobile-footer img{
+	max-height:3rem;
+}
 
 
 
 
 /* Click Ribbons */
-.click-ribbon-container{
-	position:relative;
+
+@media (max-width: 600px) {
+	.click-ribbon{
+		display:none;
+	}
 }
+
 
 .click-ribbon{
 	white-space: nowrap;
@@ -37,19 +70,63 @@ body{
 
 
 .click-ribbon-body{
-	box-shadow: 2px 2px 2px 1px black;
 	height:100%;
-	background-color:blue;
 	padding:0;
 	margin:0;
 }
 
-.why-ribbon .click-ribbon-body{
+.click-ribbon-tip{
+
+	width:0;
+	height:0;
+	border-left:3rem solid;
+	border-right:3rem solid transparent;
+	border-bottom:3rem solid transparent;
+	overflow: hidden;
+}
+
+.click-ribbon-under, .click-ribbon-cover{
+	height:100%;
+	width:100%;
+	position:absolute;
+	top:0;
+
+}
+
+.click-ribbon-under .click-ribbon-body{
+	background-color:rgba(87, 87, 255, 0.79);
+	box-shadow: -3px 2px 4px 0px black;
+}
+
+
+.click-ribbon-cover .click-ribbon-body{
+	background-color:blue;
+
+}
+
+.click-ribbon-under .click-ribbon-tip{
+	border-left-color:rgba(87, 87, 255, 0.79);
+}
+
+.click-ribbon-cover .click-ribbon-tip{
+	border-left-color:blue;
+	background-color:transparent;
+}
+
+.why-ribbon .click-ribbon-under .click-ribbon-body{
+	width:90%;
+}
+
+.why-ribbon .click-ribbon-cover .click-ribbon-body{
+	width:70%;
+}
+
+.how-ribbon .click-ribbon-under .click-ribbon-body{
 	width:80%;
 }
 
-.how-ribbon .click-ribbon-body{
-	width:70%;
+.how-ribbon .click-ribbon-cover .click-ribbon-body{
+	width:60%;
 }
 
 .click-ribbon-body, .click-ribbon-tip{
@@ -57,15 +134,99 @@ body{
 
 }
 
-.click-ribbon-tip{
+.click-ribbon-text{
+	position:absolute;
+	top:0;
+	z-index:10;
+}
 
-	width:0;
-	height:0;
-/*	border-top:50px solid blue;*/
-	border-left:3rem solid blue;
-	border-right:3rem solid transparent;
-	border-bottom:3rem solid transparent;
-	overflow: hidden;
+.click-ribbon-text a{
+	font-size:2rem;
+	color:yellow;
+	font-style:italic;
+}
+.click-ribbon-text a:hover{
+	font-weight:bolder;
+}
+
+.why-ribbon .click-ribbon-text{
+	right:10%;
+}
+
+.how-ribbon .click-ribbon-text{
+	right:20%;
+}
+
+.jumbo-text{
+	position:absolute;
+	top:0;
+	text-align: right;
+	width:60%;
+	right:5%;
+	font-size:3rem;
+}
+
+.totheleft{
+	text-align:left;
+}
+
+.totheright{
+	text-align:right;
+}
+.tothecenter{
+	text-align:center;	
+}
+
+.jumbo-text #brad4allstar-img{
+	width:100%;
+	max-width:100%;
+	max-height:150px;
+}
+
+.jumbo-text #choose-img{
+	width:35%;
+	max-height:100px;
+}
+
+@media (max-width: 600px) {
+	.jumbo-text{
+		display:none;
+	}
+}
+
+.footer-why-and-how{
+	text-align:center;
+	font-size:2.25em;
+	font-weight:bold;
+}
+
+@media (min-width: 601px) {
+	.footer-why-and-how{
+		display:none;
+	}
+}
+
+.quote{
+	color:grey;
+	font-style:italic;
+	font-size:1.75rem;
+}
+
+/* Card */
+.card{
+	background-color:white;
+	margin:1rem;
+	box-shadow: 3px 2px 2px 2px grey;
+	min-height:1rem;
+	padding:1rem;
+}
+
+.card-poppy:active, .card-poppy:hover{
+	box-shadow: 1px 1px 1px 1px grey;
+}
+
+.card-rounded{
+	border-radius:.5rem;
 }
 
 
@@ -74,15 +235,28 @@ body{
 
 
 .jumbotron-image{
+	position:relative;
 	background-size:cover;
 	background-repeat:no-repeat;
-	min-height:500px;
+	height:474px;
 	width:100%;
+	background-image: url("../img/jumbo4.jpg");
 	/*padding-top:100%;*/
 }
 
+.brad-image{
+	background-size:contain;
+	background-repeat:no-repeat;
+	position:absolute;
+	bottom:0;
+	height:95%;
+	width:100%;
 
-@media (max-width: 767px) {
+	background-image: url("../img/brad2.png");
+}
+
+
+/*@media (max-width: 767px) {
 	.jumbotron-image{
 		background-image: url("../img/jumbo1.jpg");
 	}
@@ -92,4 +266,4 @@ body{
 	.jumbotron-image{
 		background-image: url("../img/jumbo1.jpg");
 	}
-}
+}*/
