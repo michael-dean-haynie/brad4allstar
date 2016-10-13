@@ -24,7 +24,6 @@
 	@include("includes._master-header")
 	@yield('master-content')
 	@include("includes._master-footer")
-
 </body>
 </html>
 

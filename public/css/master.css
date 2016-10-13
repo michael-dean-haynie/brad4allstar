@@ -255,15 +255,139 @@ body{
 	background-image: url("../img/brad2.png");
 }
 
+.sub-heading{
+	color:grey;
+	font-size:1.25em;
 
-/*@media (max-width: 767px) {
-	.jumbotron-image{
-		background-image: url("../img/jumbo1.jpg");
+}
+
+.space-on-bottom{
+	margin-bottom:1rem;
+}
+
+
+/* head-ribbon */
+.head-ribbon{
+	margin-top:1rem;
+	white-space: nowrap;
+	position:relative;
+	height:3rem;
+}
+
+.head-ribbon-body{
+	height:100%;
+	padding:0;
+	margin:0;
+}
+
+.head-ribbon-tip{
+	width:0;
+	height:0;
+	border-left:3rem solid;
+	border-right:3rem solid transparent;
+	border-bottom:3rem solid transparent;
+	overflow: hidden;
+}
+
+.head-ribbon-under, .head-ribbon-cover{
+	height:100%;
+	width:100%;
+	position:absolute;
+	top:0;
+
+}
+
+.head-ribbon-under .head-ribbon-body{
+	background-color:rgba(87, 87, 255, 0.79);
+	box-shadow: -3px 2px 4px 0px black;
+}
+
+
+.head-ribbon-cover .head-ribbon-body{
+	background-color:blue;
+
+}
+
+.head-ribbon-under .head-ribbon-tip{
+	border-left-color:rgba(87, 87, 255, 0.79);
+}
+
+.head-ribbon-cover .head-ribbon-tip{
+	border-left-color:blue;
+	background-color:transparent;
+}
+
+.head-ribbon-under .head-ribbon-body{
+	width:90%;
+}
+
+.head-ribbon-cover .head-ribbon-body{
+	width:60%;
+}
+
+@media (max-width: 800px) {
+	.head-ribbon-under .head-ribbon-body{
+		width:90%;
+	}
+
+	.head-ribbon-cover .head-ribbon-body{
+		width:20%;
 	}
 }
 
-@media (min-width: 768px) {
-	.jumbotron-image{
-		background-image: url("../img/jumbo1.jpg");
-	}
-}*/
+.head-ribbon-body, .head-ribbon-tip{
+	display:inline-block;
+
+}
+
+.head-ribbon-text{
+	color:white;
+	position:absolute;
+	top:0;
+	z-index:10;
+	font-size:2rem;
+
+	font-style:italic;
+	right:10%
+}
+
+
+.head-ribbon-text{
+	right:10%;
+}
+
+
+.pseudo-table td{
+	width:50%;
+	text-align:center;
+}
+
+.pseudo-table tr.spacer-row td{
+	height:.5rem;
+	background-color:lightgrey;
+}
+
+.pseudo-table tr.empty-spacer-row td{
+	height:.5rem;
+	background-color:white;
+}
+
+
+
+.pseudo-name-container{
+	display: flex;
+	justify-content: center; /* align horizontal */
+	align-items: center; /* align vertical */
+	height:auto;
+/*	width:100% ;*/
+}
+
+.pseudo-name{
+	font-size:2em;
+}
+
+
+.footer{
+	position:absolute;
+	bottom:0;
+}

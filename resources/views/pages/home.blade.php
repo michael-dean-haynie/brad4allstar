@@ -30,7 +30,7 @@
 					This Comment removes the space inbetween inline-block elements
 					--><div class="click-ribbon-tip"></div>
 				</div>
-				<div class="click-ribbon-text"><a href="#">Why?</a></div>
+				<div class="click-ribbon-text"><a href="/qualifications">Why?</a></div>
 			</div>
 			<div class="click-ribbon how-ribbon">
 				<div class="click-ribbon-under">
@@ -43,7 +43,7 @@
 					This Comment removes the space inbetween inline-block elements
 					--><div class="click-ribbon-tip"></div>
 				</div>
-				<div class="click-ribbon-text"><a href="#">How?</a></div>
+				<div class="click-ribbon-text"><a href="/howtovote">How?</a></div>
 			</div>
 			<div class="brad-image"></div>
 		</div>
@@ -58,12 +58,12 @@
 		<div class="row footer-why-and-how">
 			<div class="col-xs-6">
 				<div class="card card-poppy card-rounded">
-					<span><a href="#">Why?</a></span>
+					<span><a href="/qualifications">Why?</a></span>
 				</div>
 			</div>
 			<div class="col-xs-6">
 				<div class="card card-poppy card-rounded">
-					<span><a href="#">How?</a></span>
+					<span><a href="/howtovote">How?</a></span>
 				</div>
 			</div>
 		</div>

@@ -16,6 +16,7 @@
         <li class="{{$activeNav == 'trivia'? "active" : ""}}"><a href="trivia">Trivia</a></li>
         <li class="{{$activeNav == 'whatvotingmeans'? "active" : ""}}"><a href="whatvotingmeans">What Voting Means</a></li>
         <li class="{{$activeNav == 'howtovote'? "active" : ""}}"><a href="howtovote">How To Vote</a></li>
+        <li class="{{$activeNav == 'merchandise'? "active" : ""}}"><a href="merchandise">Merchandise</a></li>
       </ul>
     </div>
   </div>

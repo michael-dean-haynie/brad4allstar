@@ -42,4 +42,9 @@ class PagesController extends Controller
     	return view('pages.howtovote', $pageData);
     }
 
+    public function merchandise(){
+        $pageData = $this->preparePageData('merchandise');
+        return view('pages.merchandise', $pageData);
+    }
+
 }

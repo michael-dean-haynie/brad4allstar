@@ -24,6 +24,8 @@ Route::get('/pseudonymes', "PagesController@pseudonymes");
 Route::get('/trivia', "PagesController@trivia");
 Route::get('/whatvotingmeans', "PagesController@whatvotingmeans");
 Route::get('/howtovote', "PagesController@howtovote");
+Route::get('/merchandise', "PagesController@merchandise");
+
 
 
 
