@@ -22,6 +22,7 @@
 				<div class="card">
 					<div class="well tothecenter">
 						<span class="sub-heading">Yes, if you want a truck with Brad's face on it that can be arranged. Not really. JK. But seriously...</span>
+					<div>
 				</div>
 				
 				<ul class="list-group">

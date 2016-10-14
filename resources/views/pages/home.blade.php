@@ -68,15 +68,16 @@
 			</div>
 		</div>
 		<div class="row">
-		<div class="col-xs-12">
-			<div class="card">
+			<div class="col-xs-12">
+				<div class="card">
 
-				<div class="tothecenter quote">
-					<span>"I need <b>your</b> help to achieve my career long dream!"</span>
-				</div>
-				<br>
-				<div class="totheright">
-					<span>-Brad&nbsp;&nbsp;&nbsp;</span>
+					<div class="tothecenter quote">
+						<span>"I need <b>your</b> help to achieve my career long dream!"</span>
+					</div>
+					<br>
+					<div class="totheright">
+						<span>-Brad&nbsp;&nbsp;&nbsp;</span>
+					</div>
 				</div>
 			</div>
 		</div>

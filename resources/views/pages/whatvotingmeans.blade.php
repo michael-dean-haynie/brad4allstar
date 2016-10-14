@@ -22,8 +22,14 @@
 				<div class="card">
 					<div class="well tothecenter">
 						<span class="sub-heading">Your vote could mean a lot, or your vote could mean naught...</span>
+					</div>
+					<p>
+						Being an AllStar has been a career-long dream for Brad. The AllStar status is a Walmart sponsored recognition of time honored values from one’s own peers. Brad has always subscribed to excellence, enthusiasm and exuberance; everything an AllStar should be! Brad would sincerely appreciate a moment of your time to make his dream a reality.
+					</p><br/><br/>
+					<div class="totheright">
+						<p><i>So vote him into office!!!</i></p>
+					</div>
 				</div>
-				<p>Being an Allstar has been a career long dream of Brads. Allstar is a Walmart sponsored...</p>
 			</div>
 		</div>
 	</div>

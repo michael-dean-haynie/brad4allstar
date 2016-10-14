@@ -22,8 +22,10 @@
 				<div class="card">
 					<div class="well tothecenter">
 						<span class="sub-heading">If you know what's good for you, you will ...</span>
+					</div>
+					<p>Being an Allstar has been a career long dream of Brads. Allstar is a Walmart sponsored...</p>
 				</div>
-				<p>Being an Allstar has been a career long dream of Brads. Allstar is a Walmart sponsored...</p>
+
 			</div>
 		</div>
 	</div>

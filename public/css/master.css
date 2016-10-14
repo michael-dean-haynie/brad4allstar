@@ -358,7 +358,7 @@ body{
 
 
 .pseudo-table td{
-	width:50%;
+	width:33%;
 	text-align:center;
 }
 
@@ -386,8 +386,19 @@ body{
 	font-size:2em;
 }
 
+.pseudo-header-row th{
+	text-align:center;
+	padding:1rem;
+	font-size:1rem;
+	text-decoration:underline;
+}
+
 
 .footer{
-	position:absolute;
-	bottom:0;
+/*	background-color:yellow;
+	color:black;
+	font-weight:bold;
+	position:relative;
+	float:bottom;*/
+/*	bottom:0;*/
 }
