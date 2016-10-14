@@ -23,7 +23,13 @@
 					<div class="well tothecenter">
 						<span class="sub-heading">If you know what's good for you, you will ...</span>
 					</div>
-					<p>Being an Allstar has been a career long dream of Brads. Allstar is a Walmart sponsored...</p>
+					<ol>
+						<li>Find Brad at work (Or email him at <a href="mailto:brad4allstar@gmail.com">brad4allstar@gmail.com</a>)</li>
+						<li>Request on of his beautiful fliers</li>
+						<li>Follow the instructions to fill out the form on the back</li>
+						<li>Turn it in in the rec. room</li>
+						<li>That's All! You are officially Brad's hero! (He may or may not grovel at your feet)</li>
+					</ol>
 				</div>
 
 			</div>
